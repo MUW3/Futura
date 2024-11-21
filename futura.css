@@ -1,0 +1,199 @@
+body { 
+	background-color:black;
+	width: 100%;
+	margin: 0;
+}
+
+#rectangle_red { 
+    width: 7.5%;
+    height: 100vh;
+    background-color: red;
+    position: fixed; /* allows the rectangle to overlap another object*/
+    left: 0%;
+    top: 0%;
+}
+
+#rectangle_white { 
+    width: 7.5%;
+    height: 100vh;
+    background-color: red;
+    position: fixed; /* allows the rectangle to overlap another object*/
+    right: 0%;
+    top: 0%;
+}
+
+#Circle {
+	 width: 200px;
+   height: 200px;
+   background-color: black;
+   border-radius: 50%;
+   position: fixed;
+   top: 300px; 
+   left: -115px;
+}
+
+#Circle2{
+	 width: 100px;
+   height: 100px;
+   background-color: white;
+   border-radius: 50%;
+   position: fixed;
+   top: 350px; 
+   left: -50px;
+}
+
+ #Circle7 { 
+ 	 width: 200px;
+   height: 200px;
+   background-color: white;/* outside circle*/
+   border-radius: 50%;
+   position: relative;
+   top: 170px; 
+   left: 800px;
+  }
+
+  #rectangle2{ 
+    width:30px;
+    height:1500px;
+    background-color:white;
+    position: relative;
+    top: -420px; 
+    left: 700px;
+    transform: rotate(-80deg);
+}
+
+#Container{
+	width: 75%;
+	display: grid;
+	gap: 1.7rem;
+	grid-template-columns: repeat(3, 1fr);
+	position: abolute;
+	margin: 0 auto;
+	grid-gap: 10px;
+}
+
+
+
+#futura_1{
+  font-size: 100px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 120px;
+  font-style: bold;
+  color: red;
+}
+
+#Futura_header {
+	position: fixed;
+	color: black;
+	right: 0;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%) rotate(90deg);
+	font-size: 100px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 120px;
+	font-style: bold;
+	margin-top: 20px;
+	margin-right: -73px;
+}
+
+  a {
+	font-size: 40px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 20;
+	font-style: italic;
+	color: red; 
+  text-decoration: none;
+}
+
+#Alphabet{
+	font-size: 40px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 40px;
+	font-style: italic;
+	color: white;
+	grid-column: 1;
+	grid-row: 2;
+  margin-top: -290px;
+}
+
+#paragraph {
+  font-size: 18px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 18;
+  font-style: italic;
+  color: red; 
+  padding: 20px;
+  padding-right: 60px ;
+  grid-column: 1;
+  grid-row: 1;
+
+}
+
+#paragraph2  {
+	font-size: 18px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 18;
+	font-style: italic;
+	color: red;	
+	grid-column: 1;
+	grid-row: 5;
+	margin-top: -10px;
+	padding: 20px;
+}
+
+#paul {
+  width: 200px;  
+  height: auto;
+  grid-column: 2;
+  grid-row: 1;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+#paragraph3{
+	font-size: 18px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 18;
+	font-style: italic;
+	color: red;	
+	grid-column: 3;
+	grid-row: 1;
+	padding: 20px;
+
+}
+
+#futura{
+  width: 200px;  
+  height: auto;  
+}
+
+#paragraph4{
+	font-size: 18px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 18;
+	font-style: italic;
+	color: red;	 
+	grid-column: 1;
+	grid-row: 6;
+	padding: 20px;
+		
+}
+
+#paragraph5{
+  font-size: 18px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 18;
+  font-style: italic;
+  color: red;  
+  grid-column: 3;
+  grid-row: 2;
+  padding: 20px;
+
+}
+
+
+
+
+
+
